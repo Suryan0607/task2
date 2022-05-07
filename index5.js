@@ -42,7 +42,7 @@ request.onload = function() {
     let q55 = output.filter(curr => curr.currencies[0].code == "USD")
     console.log(q55)
     let q5 = q55.forEach(us => {
-        console.log("Name :", us.name + "," + "currencies :", us.currencies[0])
+        console.log("Name :", us.name + "," + "currencies :", us.currencies[0].code)
     });
 
 
